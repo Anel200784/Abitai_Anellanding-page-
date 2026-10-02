@@ -3,57 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Менің сайт-визиткам</title>
+    <title>Әбітай Анель - Жеке веб-парақшам</title>
+    <!-- CSS дизайн файлын байланыстыру -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="hero">
-        <div class="container">
-            <h1>Сәлем! Мен Веб-әзірлеушімін</h1>
-            <p>Бұл менің Stepik курсындағы алғашқы итоговый жобам.</p>
-            <a href="#contact" class="btn">Хабарласу</a>
-        </div>
+    <header>
+        <h1>Менің кәсіби веб-парақшам</h1>
+        <p>Ақпараттық технологиялар саласындағы студенттің жеке веб-парақшасы.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Басты бет / Мен туралы</a></li>
+                <li><a href="#skills">Менің дағдыларым</a></li>
+                <li><a href="#projects">Жобаларым</a></li>
+                <li><a href="#achievements">Жетістіктерім</a></li>
+                <li><a href="#resources">Пайдалы ресурстар</a></li>
+                <li><a href="#contact">Байланыс</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="about" class="section">
-        <div class="container">
+    <main>
+        <section id="about">
             <h2>Мен туралы</h2>
-            <p>Мен веб-разработка негіздерін үйреніп жатырмын. HTML және CSS көмегімен заманауи, ыңғайлы веб-сайттар жасауды меңгерудемін.</p>
-        </div>
-    </section>
-
-    <section id="skills" class="section bg-light">
-        <div class="container">
+            <p>Менің аты-жөнім — Әбітай Анель Өмірсерікқызы. Қазіргі уақытта университетте Ақпараттық жүйелер мамандығы бойынша 2-курс студентімін. IT саласына деген қызығушылығым жоғары және заманауи веб-технологияларды, бағдарламалау тілдерін терең меңгеруге ұмтыламын.</p>
+            <p>Бос уақытымда жаңа технологияларды зерттеп, әртүрлі IT жобалар жасаумен айналысамын. Кәсіби мақсатым — білікті толық циклды (Full-stack) бағдарламашы атанып, отандық және халықаралық IT жобаларға атсалысу.</p>
+            
+            <figure>
+                <!-- Суреттің дұрыс жолы -->
+                <img src="images/suret.jpeg" alt="Әбітай Анельдің суреті" width="250">
+                <figcaption>Әбітай Анель — Ақпараттық жүйелер студенті</figcaption>
+            </figure>
+        </section>
+ 
+        <section id="skills">
             <h2>Менің дағдыларым</h2>
-            <div class="skills-grid">
-                <div class="card">
-                    <h3>HTML5</h3>
-                    <p>Семантикалық беттерді құру</p>
-                </div>
-                <div class="card">
-                    <h3>CSS3</h3>
-                    <p>Стильдер, Flexbox және адаптивті верстка</p>
-                </div>
-                <div class="card">
-                    <h3>Git / GitHub</h3>
-                    <p>Жобалармен жұмыс және сақтау</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <p>Төменде менің кәсіби дағдыларым мен меңгерген бағыттарым көрсетілген:</p>
+            
+            <ul>
+                <li>Бағдарламалау тілдері:
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Dart</li>
+                    </ul>
+                </li>
+                <li>Web-технологиялар:
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Flask</li>
+                    </ul>
+                </li>
+            </ul>
 
-    <section id="contact" class="section">
-        <div class="container">
+            <ol>
+                <li>Дерекқорлармен жұмыс (SQL, SQLite)</li>
+                <li>Cisco Packet Tracer желілік конфигурациясы</li>
+                <li>3ds Max пен 3D модельдеу</li>
+                <li>Git және GitHub нұсқаларды басқару жүйесі</li>
+            </ol>
+        </section>
+
+        <section id="projects">
+            <h2>Менің жобаларым</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <caption>Оқу барысында жасалған негізгі жобалар тізімі</caption>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Жоба атауы</th>
+                        <th>Қолданылған технологиялар</th>
+                        <th>Жылы</th>
+                        <th>Жоба жағдайы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Student Portal Web-қосымшасы</td>
+                        <td>Python, Flask, HTML/CSS</td>
+                        <td>2026</td>
+                        <td>Аяқталды</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Java Memory Match ойыны</td>
+                        <td>Java, Swing GUI, OOP</td>
+                        <td>2026</td>
+                        <td>Аяқталды</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>3D Кітапхана интерьері моделі</td>
+                        <td>3ds Max, Rendering</td>
+                        <td>2026</td>
+                        <td>Аяқталды</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Cisco Университет желілік топологиясы</td>
+                        <td>Cisco Packet Tracer, OSPF, VLAN</td>
+                        <td>2026</td>
+                        <td>Жоспарлануда</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" style="text-align: center; font-style: italic;">Барлық жобалар студенттің жеке портфолиосына енгізілді</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="achievements">
+            <h2>Менің жетістіктерім</h2>
+            <ul>
+                <li><span>Университетшілік программистер олимпиадасына қатысып, белсенділік таныттым.</span></li>
+                <li><span>Python және Web-бағыттар бойынша онлайн сертификаттар алдым.</span></li>
+                <li><span>Хакатон байқауына қатысып, өз жобамды сәтті қорғадым.</span></li>
+                <li><span>«Ақпараттық жүйелер негіздері» тақырыбында оқу курстық жобасын үздік аяқтадым.</span></li>
+                <li>
+                    Ғылыми жоба аясында баяндама жасадым. 
+                    (<time datetime="2026-05-15">15 мамыр 2026 жыл</time>)
+                </li>
+            </ul>
+        </section>
+
+        <section id="resources">
+            <h2>Пайдалы ресурстар</h2>
+            <ul>
+                <li><a href="https://www.kaznu.kz" target="_blank">Университет сайты</a></li>
+                <li><a href="https://github.com" target="_blank">GitHub платформасы</a></li>
+                <li><a href="https://developer.mozilla.org" target="_blank">HTML құжаттамасы (MDN)</a></li>
+                <li><a href="https://www.python.org" target="_blank">Бағдарламалау платформасы (Python)</a></li>
+                <li><a href="https://stepik.org" target="_blank">Білім беру платформасы (Stepik)</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
             <h2>Байланыс</h2>
-            <p>Менімен төмендегі әдістер арқылы хабарласа аласыз:</p>
-            <p>Email: anelabitai@gmail.com</p>
-            <p>GitHub: <a href="https://github.com" target="_blank">github.com/username</a></p>
-        </div>
-    </section>
+            <form action="#" method="POST">
+                <p>
+                    <label for="fullname">Аты-жөніңіз:</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+                <p>
+                    <label for="email">Электрондық пошта:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="phone">Телефон нөміріңіз:</label><br>
+                    <input type="tel" id="phone" name="phone">
+                </p>
+                <p>
+                    <label for="subject">Тақырып таңдау:</label><br>
+                    <select id="subject" name="subject">
+                        <option value="s1">Сұрақ қою</option>
+                        <option value="s2">Ынтымақтастық</option>
+                        <option value="s3">Пікір білдіру</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Жынысыңыз:</label><br>
+                    <input type="radio" id="female" name="gender" value="female" checked>
+                    <label for="female">Қыз</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Ұл</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="subscribe" name="subscribe" checked>
+                    <label for="subscribe">Жаңалықтарға жазылу</label>
+                </p>
+                <p>
+                    <label for="message">Хабарлама:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="30"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Жіберу">
+                    <input type="reset" value="Тазалау">
+                </p>
+            </form>
+        </section>
+
+        <section id="media">
+            <h2>Таныстыру видеосы</h2>
+            <video controls width="400">
+                <source src="media/Запись 2026-04-23 143437.mp4" type="video/mp4">
+                Сіздің браузеріңіз видео элементін қолдамайды.
+            </video>
+        </section>
+
+        <section id="extra">
+            <details>
+                <summary>Мен туралы қызықты факт</summary>
+                <p>Мен бос уақытымда 3D графика мен дизайн элементтерін зерттегенді және жаңа алгоритмдерді шешкенді ұнатамын.</p>
+            </details>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2026. Барлық құқықтар қорғалған.</p>
+        <p>&copy; 2026 Әбітай Анель. Барлық құқықтар қорғалған.</p>
     </footer>
 
 </body>
